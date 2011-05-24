@@ -28,7 +28,7 @@
 	<classpathentry kind="lib" path="war/WEB-INF/lib/gson-1.6-sources.jar"/>
 	<classpathentry kind="lib" path="war/WEB-INF/lib/gson-1.6.jar"/>
 	<classpathentry kind="lib" path="war/WEB-INF/lib/guava-r09-sources.jar"/>
-	<classpathentry kind="lib" path="war/WEB-INF/lib/guava-r09.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/guava-r09.jar" sourcepath="war/WEB-INF/lib/guava-r09-sources.jar"/>
 	<classpathentry kind="lib" path="war/WEB-INF/lib/gwt-servlet.jar"/>
 	<classpathentry kind="lib" path="war/WEB-INF/lib/httpclient-4.0.3-sources.jar"/>
 	<classpathentry kind="lib" path="war/WEB-INF/lib/httpclient-4.0.3.jar"/>
@@ -51,5 +51,6 @@
 	<classpathentry kind="lib" path="war/WEB-INF/lib/xmlParserAPIs-2.6.2.jar"/>
 	<classpathentry kind="lib" path="war/WEB-INF/lib/xpp3-1.1.4c-sources.jar"/>
 	<classpathentry kind="lib" path="war/WEB-INF/lib/xpp3-1.1.4c.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/guava-r09-gwt.jar"/>
 	<classpathentry kind="output" path="war/WEB-INF/classes"/>
 </classpath>
