@@ -18,7 +18,6 @@ public class HockeyMoms implements EntryPoint {
 	 * This is the entry point method.
 	 */
 	public void onModuleLoad() {
-		
 		CalendarPresenter calendarPresenter = new CalendarPresenter(greetingService);
 		CalendarView calendarView = new CalendarView(calendarPresenter);
 		RootPanel.get("calendar").add(calendarView);
